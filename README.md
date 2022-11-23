@@ -5,4 +5,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Start Project:
 
 1. Clone prj
-2. yarn start or npm start
+2. yarn install
+3. yarn start or npm start
