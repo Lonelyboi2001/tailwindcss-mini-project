@@ -6,17 +6,17 @@ const Card = () => {
                 <img className="w-full h-full rounded-[1rem] object-fill md:max-w-xs md:max-h-80" src={Cards} alt="" />
             </div>
             <div className="content-container md:pl-[2vw]">
-            <div className="title-container mt-1 p-3 md:p-0">
+            <div className="p-3 mt-1 title-container md:p-0">
                 <span className="text-white text-20 md:text-[clamp(1vw,2.1vw,20px);]">Get diet and fitness tips in your inbox</span>
             </div>
             <div className="description-container mb-6 md:mb-[1vw]">
                 <p className="text-white md:text-[clamp(10px,1vw,13px)]">Eat better and exercise better. Signup for the Diet&Fitness newsletter.</p>
             </div>
             <div className="submit-container">
-            <div className="email-container mb-4">
+            <div className="mb-4 email-container">
             <input type="text" id="fname" name="email" placeholder="Enter your email address" className="w-10/12 h-11 bg-transparent border border-white border-opacity-10 placeholder:text-center placeholder:text-[clamp(10px,12px,18px)]"/>
             </div>
-            <div className="subcribe-container mb-5"><a href="" className="subcribe-btn btn-primary w-10/12 bg-[#84cc16] md:m-0"> Subcribe</a></div>
+            <div className="mb-5 subcribe-container"><a href="" className="subcribe-btn btn-primary w-10/12 bg-[#84cc16] md:m-0"> Subcribe</a></div>
             </div>
             </div>
         </div>

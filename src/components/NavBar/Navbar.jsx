@@ -14,12 +14,12 @@ const Navbar = (props) => {
     return (  
         <nav className="flex items-center mb-8">
             <div className="flex items-center">
-                <div className="text-20 font-bold mr-2 text-white">Tailwind Learn</div>
+                <div className="mr-2 font-bold text-white text-20">Tailwind Learn</div>
                 <HiOutlineSun size={"21px"} 
                 color="#e9c46a" 
                 className="cursor-pointer"/>
             </div>
-            <ul className="ml-auto text-16 font-semibold">
+            <ul className="ml-auto font-semibold text-16">
                 {openMenu && isMobile ? (
                     <MdOutlineClose size={"24px"} 
                     color={"white"} 
@@ -31,7 +31,7 @@ const Navbar = (props) => {
                 color="white" className="cursor-pointer" 
                 onClick={handleMenu} />
                 ):(
-                    <div className="absolute right-8 bg-gray-600 p-8 text-center text-white text-13">
+                    <div className="absolute p-8 text-center text-white bg-gray-600 right-8 text-13">
                         <li>Feeee</li>
                         <li>Menu</li>
                         <li>aaaaaaa</li>
@@ -39,7 +39,7 @@ const Navbar = (props) => {
                     </div>
                 )} 
                 {openMenu && (
-                    <div className="absolute right-8 bg-gray-600 p-8 text-center text-white text-13">
+                    <div className="absolute p-8 text-center text-white bg-gray-600 right-8 text-13">
                         <li>Feeee</li>
                         <li>Menu</li>
                         <li>aaaaaaa</li>

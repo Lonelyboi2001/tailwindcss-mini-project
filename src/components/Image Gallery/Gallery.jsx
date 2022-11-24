@@ -8,8 +8,8 @@ import ImageDetail from '../../Details/imageDetails';
 const ImageGallery = () => {
     const[detail, setDetail] = useState(ImageDetail)
     return ( 
-    <div className="img-gallery max-w-md m-auto md:max-w-screen-2xl md:mb-12">
-        <section className="nav-bar flex justify-center text-center md:justify-end my-10 md:pr-4 "> 
+    <div className="max-w-md m-auto img-gallery md:max-w-screen-2xl md:mb-12">
+        <section className="flex justify-center my-10 text-center nav-bar md:justify-end md:pr-4 "> 
             <nav class="navbar">
                     <ul class="nav-menu list-none flex flex-col gap-4 md:flex-row ">
                         <li ><a className='px-3 py-2 ' href="">Vectors</a></li>
@@ -19,7 +19,7 @@ const ImageGallery = () => {
                     </ul>
             </nav>
         </section>
-        <section className="upload-and-search mb-5">
+        <section className="mb-5 upload-and-search">
             <div class='flex flex-col justify-center items-center px-6 md:flex-row md:justify-between'>
                 <div class="relative flex mb-4 items-center h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
                     <input
@@ -38,13 +38,13 @@ const ImageGallery = () => {
                 </div>
             </div>
         </section>
-        <section className=" image-gallery gallery-container grid gap-5 max-w-screen-2xl m-auto px-6">
+        <section className="grid gap-5 px-6 m-auto image-gallery gallery-container max-w-screen-2xl">
         {
             detail.map((detail) => {
                 return(
-                        <div className="image-container flex relative items-end ">
+                        <div className="relative flex items-end image-container ">
                         <img className='w-full' src={detail.image}/>
-                            <div className="image-detail md:hidden flex ">
+                            <div className="flex image-detail md:hidden ">
                                 <div className='image-info'>
                                     <span> {detail.name}</span>
                                     <div>
