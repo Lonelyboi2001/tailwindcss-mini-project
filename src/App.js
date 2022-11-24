@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './App.css';
+import './app.css'
 import Card from './components/Email Subscribe/Card';
 import ImageGallery from './components/Image Gallery/Gallery';
 import Navbar from './components/NavBar/Navbar';
@@ -37,7 +37,7 @@ function App() {
   
   return (
     <div>
-      <section className='font-sora text-13 px-4 py-8 bg-zinc-700'>
+      <section className='px-4 py-8 font-sora text-13 bg-zinc-700'>
       <Navbar isMobile={isMobile} />
       <Card />
     </section>

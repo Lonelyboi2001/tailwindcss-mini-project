@@ -7,7 +7,7 @@ const Product = () => {
     return ( 
         <div>
     <div
-        className="card-container box-container max-w-[28rem] p-5 pt-1 bg-white shadow-3d text-black md:flex md:max-w-4xl md:pt-14 md:pl-0 ">
+        className="box-container max-w-[28rem] p-5 pt-1 bg-white shadow-3d text-black md:flex md:max-w-4xl md:pt-14 md:pl-0 ">
         <div className="pt-5 pr-image-container p-11 md:self-start md:p-0">
             <img className="w-[85%] m-auto duration-700
              md:m-0 md:inline-block md:w-4/6 md:hover:scale-110 md:hover:duration-700" src={Headphone} alt=""/>
@@ -21,7 +21,7 @@ const Product = () => {
             last</p>
         <div className="m-3 cart-btn-container md:block md:w-full w-md:ml-0 md:mb-1">
             <a href=""
-               className="btn-primary cart-btn p-7 border-b-8 border-blue-700 bg-blue-500 text-white hover:pb-8 hover:border-b-0 md:ml-0 md:w-[87%] ">Add
+               className="btn-primary p-7 border-b-8 border-blue-700 bg-blue-500 text-white hover:pb-9 hover:border-b-0 md:ml-0 md:w-[87%] ">Add
                 to cart</a>
         </div>
         <div className="flex flex-row items-center gap-4 m-3 stock-detail-container md:m-2">
@@ -30,10 +30,10 @@ const Product = () => {
         </div>
         <div className="mb-5 cart-btn-container md:flex md:gap-4">
             <a href=""
-               className="mt-4 mb-4 border-2 border-gray-300 btn-primary card-btn p-7 hover:border-b-8 hover:p-6 md:mt-1">
+               className="btn-secondary btn-primary">
                 <GiScales size={30}/>
                 <p className='ml-3 '>Add to cart</p></a>
-            <a href="" className="border-2 border-gray-300 btn-primary wishlist-btn p-7 hover:border-b-8 hover:p-6 md:mt-1">
+            <a href="" className="btn-secondary btn-primary">
                 <AiOutlineHeart size={30}/><p className='ml-3'>Add to wishlist</p>
             </a></div>
     </div></div>

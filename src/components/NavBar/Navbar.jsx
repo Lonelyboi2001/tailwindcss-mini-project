@@ -19,7 +19,7 @@ const Navbar = (props) => {
                 color="#e9c46a" 
                 className="cursor-pointer"/>
             </div>
-            <ul className="ml-auto font-semibold text-16">
+            {/* <ul className="ml-auto font-semibold text-16">
                 {openMenu && isMobile ? (
                     <MdOutlineClose size={"24px"} 
                     color={"white"} 
@@ -46,7 +46,7 @@ const Navbar = (props) => {
                         <li>meow meow</li>
                     </div>
                 )}
-            </ul>
+            </ul> */}
         </nav>
     );
 }

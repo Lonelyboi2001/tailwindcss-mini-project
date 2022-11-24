@@ -7,7 +7,7 @@ const Card = () => {
             </div>
             <div className="content-container md:pl-[2vw]">
             <div className="p-3 mt-1 title-container md:p-0">
-                <span className="text-white text-20 md:text-[clamp(1vw,2.1vw,20px);]">Get diet and fitness tips in your inbox</span>
+                <span className="mr-5 text-white text-20 md:text-[clamp(1vw,2.1vw,20px);]">Get diet and fitness tips in your inbox</span>
             </div>
             <div className="description-container mb-6 md:mb-[1vw]">
                 <p className="text-white md:text-[clamp(10px,1vw,13px)]">Eat better and exercise better. Signup for the Diet&Fitness newsletter.</p>

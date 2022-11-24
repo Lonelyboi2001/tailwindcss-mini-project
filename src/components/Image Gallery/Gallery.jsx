@@ -38,7 +38,7 @@ const ImageGallery = () => {
                 </div>
             </div>
         </section>
-        <section className="grid gap-5 px-6 m-auto image-gallery gallery-container max-w-screen-2xl">
+        <section className="grid gap-5 px-6 m-auto image-gallery max-w-screen-2xl">
         {
             detail.map((detail) => {
                 return(

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .box-container {
+    @apply max-w-xs m-auto p-2 text-center text-white rounded-3xl items-center;
+  }
+  .btn-primary {
+    @apply flex h-10 m-auto rounded-md justify-center items-center;
+  }
+  .image-gallery {
+    @apply xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2;
+  }
+  .image-gallery .image-container:hover .image-detail {
+    @apply md:flex;
+  }
+  .image-gallery .image-detail {
+    @apply absolute justify-between items-center w-full px-4 py-2 bg-gray-900 bg-opacity-30 text-white;
+  }
+  .nav-menu li a:hover {
+    @apply border-b-2 border-b-slate-900 duration-100;
+  }
+  .pricing-container:first-child {
+    @apply border-[#324154] md:mr-5;
+  }
+  .pricing-container:nth-child(2) {
+    @apply border-violet-600 md:ml-5 md:mr-5;
+  }
+  .pricing-container:nth-child(2) .btn-full-color {
+    @apply bg-[#7e22cf];
+  }
+  .pricing-container:last-child {
+    @apply border-[#324154] md:ml-5;
+  }
+  .pricing-container .details-deal-container span {
+    @apply flex justify-center;
+  }
+  .pricing-container .details-deal-container span TiTick {
+    @apply inline-block;
+  }
+  .pricing-container .details-deal-container:not(:last-child) p {
+    @apply mb-4 text-16;
+  }
+  .person-container:first-child {
+    @apply bg-[#7e22cf] text-white md:col-span-2;
+  }
+  .person-container:nth-child(2) {
+    @apply bg-[#4b5563] text-white;
+  }
+  .person-container:nth-child(3) {
+    @apply bg-white md:row-span-2;
+  }
+  .person-container:nth-child(4) {
+    @apply bg-white;
+  }
+  .person-container:last-child {
+    @apply bg-[#111827] text-white md:col-span-2;
+  }
+  .btn-secondary {
+    @apply border-2 border-gray-300 p-7 mt-4 mb-4;
+  }
+  .btn-secondary:hover {
+    @apply border-b-8 border-b-8 mt-1;
+  }
+}
+/*# sourceMappingURL=app.css.map */
